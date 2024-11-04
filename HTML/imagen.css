@@ -1,0 +1,65 @@
+
+/*styles*/
+
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+
+/*position*/
+
+#bar {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    position: absolute; 
+    top: 60%;
+    left: 59%;
+    transform: translate(-115%, -55%); /*(x,y)*/
+}
+
+#link {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
+
+#link a {
+    font-size: 10px;
+    text-decoration: none;
+    color: inherit;
+    color: gray;
+}
+
+/*size*/
+
+#bar input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100px;
+    font-size: 9px;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border 0.2s ease;
+    background-color: #edececdb;
+}
+
+button:hover {
+    border-color: #999a9b;
+    border-style: solid;
+    border-width: 1px;
+}
